@@ -1,0 +1,13 @@
+INDEX VERSION 1.131+F:\Coding Workspace\CurrencyExchangeMicroServices\.metadata\.plugins\org.eclipse.jdt.core
+2249115740.index
+19706685.index
+1711297938.index
+3183541055.index
+1477143674.index
+1409404718.index
+4178873829.index
+1545593858.index
+4005569985.index
+2258349313.index
+2824509953.index
+1655320827.index

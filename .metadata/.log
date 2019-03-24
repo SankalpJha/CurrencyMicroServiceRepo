@@ -2766,3 +2766,1005 @@ java.lang.UnsupportedOperationException: No language server has registered to ha
 !MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
 	currency-exchange-service[*]: {CONTENT}
 		ResourceDelta(/currency-exchange-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 00:49:25.380
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.xChangeModel[*]: {CHILDREN}
+				ExchangeValue.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 00:49:25.736
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.xChangeController[*]: {CHILDREN}
+				CurrencyExchangeController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 00:49:25.744
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.xVJLsShP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 00:49:25.746
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.xVJLsShP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 00:49:25.746
+!MESSAGE subsribers = [sts4.classpath.eTODYTzy]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 00:49:25.746
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.xVJLsShP => OK
+!SESSION 2019-03-24 09:07:27.440 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=9
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2019-03-24 09:08:55.348
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-03-24 09:08:55.348
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6b756a62,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@394b9e22,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:04.933
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-03-24 09:09:09.629
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jhasa'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:10.635
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MsKDNarR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:10.636
+!MESSAGE subscribing to classpath changes: sts4.classpath.MsKDNarR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:10.639
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:10.640
+!MESSAGE subsribers = [sts4.classpath.MsKDNarR]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:10.640
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:10.648
+!MESSAGE project currency-exchange-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:10.648
+!MESSAGE project limits-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:10.650
+!MESSAGE Preparing classpath changed notification currency-exchange-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:10.650
+!MESSAGE project spring-cloud-config-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:10.651
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:10.721
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:10.722
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MsKDNarR => OK
+
+!ENTRY org.eclipse.osgi 2 0 2019-03-24 09:09:14.685
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer", thread "Thread[Worker-5: Initializing Java Tooling,5,main]" timed out waiting (5046ms) for thread "Thread[org.eclipse.jdt.internal.ui.text.JavaReconciler,1,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.9.1.20180912-1601 [270]". To avoid deadlock, thread "Thread[Worker-5: Initializing Java Tooling,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="1.9.1.20180912-1601"; osgi.identity="org.eclipse.m2e.jdt"; singleton:="true" [id=270] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:340)
+	at org.eclipse.osgi.container.Module.start(Module.java:404)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:473)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:612)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:180)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:934)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3669)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3645)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3192)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3095)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3157)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2128)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4384)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	... 27 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	at org.eclipse.osgi.container.Module.start(Module.java:404)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:473)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:612)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:180)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:934)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3669)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3645)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3192)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3095)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3157)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2128)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4384)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.osgi 2 0 2019-03-24 09:09:15.728
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer", thread "Thread[Worker-3: SendClasspath notification,5,main]" timed out waiting (5000ms) for thread "Thread[org.eclipse.jdt.internal.ui.text.JavaReconciler,1,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.9.1.20180912-1601 [270]". To avoid deadlock, thread "Thread[Worker-3: SendClasspath notification,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="1.9.1.20180912-1601"; osgi.identity="org.eclipse.m2e.jdt"; singleton:="true" [id=270] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:340)
+	at org.eclipse.osgi.container.Module.start(Module.java:404)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:473)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:612)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:180)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:934)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3669)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3645)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3192)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3095)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3157)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2128)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3622)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3147)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3311)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2422)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:73)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:171)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	... 31 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	at org.eclipse.osgi.container.Module.start(Module.java:404)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:473)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:612)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:180)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:934)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3669)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3645)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3192)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3095)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3157)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2128)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3622)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3147)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3311)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2422)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:73)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:171)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.osgi 2 0 2019-03-24 09:09:15.731
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer", thread "Thread[Worker-8: Update dynamic Java sources working sets,5,main]" timed out waiting (5003ms) for thread "Thread[org.eclipse.jdt.internal.ui.text.JavaReconciler,1,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.9.1.20180912-1601 [270]". To avoid deadlock, thread "Thread[Worker-8: Update dynamic Java sources working sets,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="1.9.1.20180912-1601"; osgi.identity="org.eclipse.m2e.jdt"; singleton:="true" [id=270] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:340)
+	at org.eclipse.osgi.container.Module.start(Module.java:404)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:473)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:612)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:180)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:934)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3669)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3645)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3192)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3095)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3157)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2128)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3622)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3147)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3311)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2388)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:478)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)
+	at org.eclipse.jdt.internal.core.JavaProject.getPackageFragmentRoots(JavaProject.java:2264)
+	at org.eclipse.jdt.internal.ui.workingsets.DynamicSourcesWorkingSetUpdater.updateElements(DynamicSourcesWorkingSetUpdater.java:201)
+	at org.eclipse.jdt.internal.ui.workingsets.DynamicSourcesWorkingSetUpdater.updateElements(DynamicSourcesWorkingSetUpdater.java:182)
+	at org.eclipse.jdt.internal.ui.workingsets.DynamicSourcesWorkingSetUpdater$1.run(DynamicSourcesWorkingSetUpdater.java:169)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	... 39 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	at org.eclipse.osgi.container.Module.start(Module.java:404)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:473)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:612)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:180)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:934)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3669)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3645)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3192)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3095)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3157)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2128)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3622)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3147)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3311)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2388)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:478)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)
+	at org.eclipse.jdt.internal.core.JavaProject.getPackageFragmentRoots(JavaProject.java:2264)
+	at org.eclipse.jdt.internal.ui.workingsets.DynamicSourcesWorkingSetUpdater.updateElements(DynamicSourcesWorkingSetUpdater.java:201)
+	at org.eclipse.jdt.internal.ui.workingsets.DynamicSourcesWorkingSetUpdater.updateElements(DynamicSourcesWorkingSetUpdater.java:182)
+	at org.eclipse.jdt.internal.ui.workingsets.DynamicSourcesWorkingSetUpdater$1.run(DynamicSourcesWorkingSetUpdater.java:169)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-03-24 09:09:15.822
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.getBuildPathManager(MavenClasspathContainerInitializer.java:80)
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:46)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3211)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3095)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3157)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2128)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3622)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3147)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3311)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2422)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:73)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:171)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:15.823
+!MESSAGE executing callback sts4.classpath.MsKDNarR currency-exchange-service false 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:15.852
+!MESSAGE executing callback sts4.classpath.MsKDNarR SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:15.853
+!MESSAGE Preparing classpath changed notification spring-cloud-config-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:15.854
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:16.213
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:16.213
+!MESSAGE executing callback sts4.classpath.MsKDNarR spring-cloud-config-server false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:16.665
+!MESSAGE executing callback sts4.classpath.MsKDNarR SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:16.666
+!MESSAGE Preparing classpath changed notification limits-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:16.667
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:16.677
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:16.678
+!MESSAGE executing callback sts4.classpath.MsKDNarR limits-service false 79
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:09:17.009
+!MESSAGE executing callback sts4.classpath.MsKDNarR SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:33:29.029
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/pom.xml)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:33:42.067
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN | RESOLVED CLASSPATH CHANGED}
+		C:\Users\jhasa\.m2\repository\org\springframework\boot\spring-boot-devtools\2.1.3.RELEASE\spring-boot-devtools-2.1.3.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\boot\spring-boot\2.1.3.RELEASE\spring-boot-2.1.3.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.1.3.RELEASE\spring-boot-autoconfigure-2.1.3.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.1.3.RELEASE\spring-boot-starter-test-2.1.3.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\boot\spring-boot-test\2.1.3.RELEASE\spring-boot-test-2.1.3.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.1.3.RELEASE\spring-boot-test-autoconfigure-2.1.3.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\junit\junit\4.12\junit-4.12.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\assertj\assertj-core\3.11.1\assertj-core-3.11.1.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\mockito\mockito-core\2.23.4\mockito-core-2.23.4.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\net\bytebuddy\byte-buddy\1.9.10\byte-buddy-1.9.10.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.10\byte-buddy-agent-1.9.10.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\spring-core\5.1.5.RELEASE\spring-core-5.1.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\spring-jcl\5.1.5.RELEASE\spring-jcl-5.1.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\spring-test\5.1.5.RELEASE\spring-test-5.1.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\xmlunit\xmlunit-core\2.6.2\xmlunit-core-2.6.2.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.1.3.RELEASE\spring-boot-starter-data-jpa-2.1.3.RELEASE.jar[+]: {}
+		C:\Users\jhasa\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.1.3.RELEASE\spring-boot-starter-aop-2.1.3.RELEASE.jar[+]: {}
+		C:\Users\jhasa\.m2\repository\org\aspectj\aspectjweaver\1.9.2\aspectjweaver-1.9.2.jar[+]: {}
+		C:\Users\jhasa\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.1.3.RELEASE\spring-boot-starter-jdbc-2.1.3.RELEASE.jar[+]: {}
+		C:\Users\jhasa\.m2\repository\com\zaxxer\HikariCP\3.2.0\HikariCP-3.2.0.jar[+]: {}
+		C:\Users\jhasa\.m2\repository\org\springframework\spring-jdbc\5.1.5.RELEASE\spring-jdbc-5.1.5.RELEASE.jar[+]: {}
+		C:\Users\jhasa\.m2\repository\javax\transaction\javax.transaction-api\1.3\javax.transaction-api-1.3.jar[+]: {}
+		C:\Users\jhasa\.m2\repository\org\hibernate\hibernate-core\5.3.7.Final\hibernate-core-5.3.7.Final.jar[+]: {}
+		C:\Users\jhasa\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar[+]: {}
+		C:\Users\jhasa\.m2\repository\org\javassist\javassist\3.23.1-GA\javassist-3.23.1-GA.jar[+]: {}
+		C:\Users\jhasa\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar[+]: {}
+		C:\Users\jhasa\.m2\repository\org\jboss\jandex\2.0.5.Final\jandex-2.0.5.Final.jar[+]: {}
+		C:\Users\jhasa\.m2\repository\org\dom4j\dom4j\2.1.1\dom4j-2.1.1.jar[+]: {}
+		C:\Users\jhasa\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.4.Final\hibernate-commons-annotations-5.0.4.Final.jar[+]: {}
+		C:\Users\jhasa\.m2\repository\org\springframework\data\spring-data-jpa\2.1.5.RELEASE\spring-data-jpa-2.1.5.RELEASE.jar[+]: {}
+		C:\Users\jhasa\.m2\repository\org\springframework\data\spring-data-commons\2.1.5.RELEASE\spring-data-commons-2.1.5.RELEASE.jar[+]: {}
+		C:\Users\jhasa\.m2\repository\org\springframework\spring-orm\5.1.5.RELEASE\spring-orm-5.1.5.RELEASE.jar[+]: {}
+		C:\Users\jhasa\.m2\repository\org\springframework\spring-tx\5.1.5.RELEASE\spring-tx-5.1.5.RELEASE.jar[+]: {}
+		C:\Users\jhasa\.m2\repository\org\springframework\spring-aspects\5.1.5.RELEASE\spring-aspects-5.1.5.RELEASE.jar[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:33:42.070
+!MESSAGE Preparing classpath changed notification currency-exchange-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:33:42.071
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:33:42.097
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:33:42.098
+!MESSAGE executing callback sts4.classpath.MsKDNarR currency-exchange-service false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:33:42.743
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:33:42.930
+!MESSAGE executing callback sts4.classpath.MsKDNarR SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:33:44.618
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/src)[*]
+		ResourceDelta(/currency-exchange-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:33:46.066
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:34:14.920
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/pom.xml)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:34:18.056
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN | CONTENT | RESOLVED CLASSPATH CHANGED}
+		C:\Users\jhasa\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.1.3.RELEASE\spring-boot-starter-data-jpa-2.1.3.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.1.3.RELEASE\spring-boot-starter-aop-2.1.3.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\aspectj\aspectjweaver\1.9.2\aspectjweaver-1.9.2.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.1.3.RELEASE\spring-boot-starter-jdbc-2.1.3.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\com\zaxxer\HikariCP\3.2.0\HikariCP-3.2.0.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\spring-jdbc\5.1.5.RELEASE\spring-jdbc-5.1.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\javax\transaction\javax.transaction-api\1.3\javax.transaction-api-1.3.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\hibernate\hibernate-core\5.3.7.Final\hibernate-core-5.3.7.Final.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\javassist\javassist\3.23.1-GA\javassist-3.23.1-GA.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\net\bytebuddy\byte-buddy\1.9.10\byte-buddy-1.9.10.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\jboss\jandex\2.0.5.Final\jandex-2.0.5.Final.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\dom4j\dom4j\2.1.1\dom4j-2.1.1.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.4.Final\hibernate-commons-annotations-5.0.4.Final.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\data\spring-data-jpa\2.1.5.RELEASE\spring-data-jpa-2.1.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\data\spring-data-commons\2.1.5.RELEASE\spring-data-commons-2.1.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\spring-orm\5.1.5.RELEASE\spring-orm-5.1.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\spring-tx\5.1.5.RELEASE\spring-tx-5.1.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\spring-aspects\5.1.5.RELEASE\spring-aspects-5.1.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\boot\spring-boot-devtools\2.1.3.RELEASE\spring-boot-devtools-2.1.3.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\boot\spring-boot\2.1.3.RELEASE\spring-boot-2.1.3.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.1.3.RELEASE\spring-boot-autoconfigure-2.1.3.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.1.3.RELEASE\spring-boot-starter-test-2.1.3.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\boot\spring-boot-test\2.1.3.RELEASE\spring-boot-test-2.1.3.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.1.3.RELEASE\spring-boot-test-autoconfigure-2.1.3.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\junit\junit\4.12\junit-4.12.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\assertj\assertj-core\3.11.1\assertj-core-3.11.1.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\mockito\mockito-core\2.23.4\mockito-core-2.23.4.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.10\byte-buddy-agent-1.9.10.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\spring-core\5.1.5.RELEASE\spring-core-5.1.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\spring-jcl\5.1.5.RELEASE\spring-jcl-5.1.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\springframework\spring-test\5.1.5.RELEASE\spring-test-5.1.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\org\xmlunit\xmlunit-core\2.6.2\xmlunit-core-2.6.2.jar[*]: {REORDERED}
+		C:\Users\jhasa\.m2\repository\com\h2database\h2\1.4.197\h2-1.4.197.jar[+]: {}
+		ResourceDelta(/currency-exchange-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:34:18.058
+!MESSAGE Preparing classpath changed notification currency-exchange-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:34:18.060
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:34:18.086
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:34:18.088
+!MESSAGE executing callback sts4.classpath.MsKDNarR currency-exchange-service false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:34:18.151
+!MESSAGE executing callback sts4.classpath.MsKDNarR SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:34:20.689
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/src)[*]
+		ResourceDelta(/currency-exchange-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:47:31.108
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.xChangeModel[*]: {CHILDREN}
+				[Working copy] ExchangeValue.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:48:46.476
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.xChangeModel[*]: {CHILDREN}
+				[Working copy] ExchangeValue.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/currency-exchange-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:48:46.746
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/src)[*]
+		ResourceDelta(/currency-exchange-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:49:29.530
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/currency-exchange-service/src/main/resources/application.properties)[*]
+		ResourceDelta(/currency-exchange-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:49:29.742
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/target)[*]]
+
+!ENTRY org.eclipse.ui 2 2 2019-03-24 09:49:34.220
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:49:46.293
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/currency-exchange-service/src/main/resources/data.sql)[+]
+		ResourceDelta(/currency-exchange-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:49:46.442
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:53:48.130
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/currency-exchange-service/src/main/resources/data.sql)[*]
+		ResourceDelta(/currency-exchange-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:53:48.300
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:54:03.172
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/currency-exchange-service/src/main/resources/data.sql)[*]
+		ResourceDelta(/currency-exchange-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:54:03.342
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:54:19.315
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.xChangeModel[*]: {CHILDREN}
+				[Working copy] ExchangeValue.java[*]: {CHILDREN | FINE GRAINED | PRIMARY RESOURCE}
+					ExchangeValue[*]: {CHILDREN | FINE GRAINED}
+						to[*]: {ANNOTATIONS}
+							@Column[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:54:19.853
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/src)[*]
+		ResourceDelta(/currency-exchange-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:55:19.467
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/currency-exchange-service/src/main/resources/data.sql)[*]
+		ResourceDelta(/currency-exchange-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 09:55:19.631
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:05:19.417
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.xChangeRepo[+]: {}
+		ResourceDelta(/currency-exchange-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:05:19.653
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.xChangeRepo[*]: {CHILDREN}
+				[Working copy] ExchangeValueRepo.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:05:19.723
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:07:34.531
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.xChangeRepo[*]: {CHILDREN}
+				[Working copy] ExchangeValueRepo.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/currency-exchange-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:07:34.764
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:08:32.472
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.xChangeController[*]: {CHILDREN}
+				[Working copy] CurrencyExchangeController.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/currency-exchange-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:08:32.659
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/src)[*]
+		ResourceDelta(/currency-exchange-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:15:45.645
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.xChangeModel[*]: {CHILDREN}
+				ExchangeValue.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:15:46.123
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.xChangeRepo[*]: {CHILDREN}
+				ExchangeValueRepo.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:15:46.309
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.xChangeController[*]: {CHILDREN}
+				CurrencyExchangeController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:15:46.314
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.MsKDNarR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:15:46.315
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.MsKDNarR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:15:46.315
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:15:46.315
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.MsKDNarR => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.164
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LHAjOIuv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.165
+!MESSAGE subscribing to classpath changes: sts4.classpath.LHAjOIuv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.166
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.166
+!MESSAGE subsribers = [sts4.classpath.LHAjOIuv]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.167
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.242
+!MESSAGE project currency-conversion-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.243
+!MESSAGE project currency-exchange-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.243
+!MESSAGE Preparing classpath changed notification currency-conversion-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.243
+!MESSAGE project limits-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.244
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.244
+!MESSAGE project spring-cloud-config-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.245
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.246
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LHAjOIuv => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.260
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.260
+!MESSAGE executing callback sts4.classpath.LHAjOIuv currency-conversion-service false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.463
+!MESSAGE executing callback sts4.classpath.LHAjOIuv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.463
+!MESSAGE Preparing classpath changed notification spring-cloud-config-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.466
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.474
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.474
+!MESSAGE executing callback sts4.classpath.LHAjOIuv spring-cloud-config-server false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.569
+!MESSAGE executing callback sts4.classpath.LHAjOIuv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.570
+!MESSAGE Preparing classpath changed notification limits-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.570
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.578
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.578
+!MESSAGE executing callback sts4.classpath.LHAjOIuv limits-service false 79
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.596
+!MESSAGE executing callback sts4.classpath.LHAjOIuv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.596
+!MESSAGE Preparing classpath changed notification currency-exchange-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.596
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.606
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.609
+!MESSAGE executing callback sts4.classpath.LHAjOIuv currency-exchange-service false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:18:10.675
+!MESSAGE executing callback sts4.classpath.LHAjOIuv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:19:01.119
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/currency-conversion-service/src/main/resources/application.properties)[*]
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:19:01.253
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:21:46.245
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.conversionController[+]: {}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:21:46.528
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:21:46.555
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.conversionController[*]: {CHILDREN}
+				[Working copy] CurrencyConversionController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:26:56.624
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.conversionmodel[+]: {}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:26:56.861
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.conversionmodel[*]: {CHILDREN}
+				[Working copy] CurrencyConversionBean.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:26:56.892
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:26:57.055
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:28:32.120
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.conversionmodel[*]: {CHILDREN}
+				[Working copy] CurrencyConversionBean.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:28:32.293
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/src)[*]
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:29:26.664
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.conversionmodel[*]: {CHILDREN}
+				[Working copy] CurrencyConversionBean.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:29:26.866
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/src)[*]
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:32:41.206
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.conversionController[*]: {CHILDREN}
+				[Working copy] CurrencyConversionController.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:32:41.384
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:42:35.723
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.conversionmodel[*]: {CHILDREN}
+				CurrencyConversionBean.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:45:34.976
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.conversionController[*]: {CHILDREN}
+				[Working copy] CurrencyConversionController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:45:35.258
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.conversionController[*]: {CHILDREN}
+				[Working copy] CurrencyConversionController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:47:32.673
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.conversionController[*]: {CHILDREN}
+				[Working copy] CurrencyConversionController.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:47:32.838
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/src)[*]
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:52:02.925
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.conversionmodel[*]: {CHILDREN}
+				[Working copy] CurrencyConversionBean.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:54:25.468
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.conversionmodel[*]: {CHILDREN}
+				[Working copy] CurrencyConversionBean.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:54:26.105
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/src)[*]
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:54:50.617
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.conversionController[*]: {CHILDREN}
+				[Working copy] CurrencyConversionController.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:54:50.855
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/src)[*]
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:57:59.543
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.fourHorsemen.conversionController[*]: {CHILDREN}
+				[Working copy] CurrencyConversionController.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-24 10:57:59.761
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/target)[*]]

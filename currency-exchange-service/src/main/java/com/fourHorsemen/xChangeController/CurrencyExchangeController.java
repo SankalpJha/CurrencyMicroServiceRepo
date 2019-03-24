@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.fourHorsemen.xChangeModel.ExchangeValue;
+import com.fourHorsemen.xChangeRepo.ExchangeValueRepo;
 
 @RestController
 public class CurrencyExchangeController {
@@ -16,10 +17,13 @@ public class CurrencyExchangeController {
 	@Autowired
 	private Environment env;
 	
+	@Autowired
+	private ExchangeValueRepo evRepo;
+	
 	@GetMapping("currency-exchange/from/{from}/to/{to}")
 	public ExchangeValue retriveExchangeValue(@PathVariable String from, @PathVariable String to) {
 		
-		ExchangeValue exchangeVal = new ExchangeValue(1000L, from, to, BigDecimal.valueOf(65));
+		ExchangeValue exchangeVal = evRepo.findByFromAndTo(from, to);
 		exchangeVal.setPortNum(Integer.parseInt(env.getProperty("local.server.port")));
 		
 		return exchangeVal;

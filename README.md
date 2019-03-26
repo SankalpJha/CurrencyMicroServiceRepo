@@ -13,9 +13,16 @@ This project has implementation of below features:
 * RESTful API
 * H2-JPA Implementation
 * Exception Handling
-* Basic Authentication or Spring Security
 * HATEOAS Implementation
 * Swagger Documentation
+* Feign REST Client
+* Eureka Naming Server Implementaiton
+* Zuul API Gateway Implementaion
+* Load Distribution through Ribbon
+* Health monitoring through Actuator
+* Tracing a request through distributed Zipkin server
+* Logging Filter through API Gateway
+* Rabbit MQ with Zipkin
 
 ### Required Tools
 * Java 1.8+
@@ -35,4 +42,19 @@ This project has implementation of below features:
 ### Description
 
 We have simple rest application in which `currency-calculation-service` service gives call to `currency-exchange-service` for conversion value. `currency-exchange-service` returns the conversion value from database. Then `currency-calculation-service` makes calculation for designated currency. In this we can have multiple instances of `currency-exchange-service` running over cloud and `currency-calculation-service` communicates with different instances.
+When we call a resouce through `currency-calculation-service` the request will go through API Gateway for this `netflix-zuul-zpi-gateway` server is implemented, this API Gateway has Logging filter, we can have many things which we want to before the request gives call to `currency-exchange-service` for e.g. setting up security for authenticated calls.
+Once the call is made it is assigned a unique id or request number via `Zipkin` then the `currency-calculation-service` gives call to `currency-exchange-service` to get the conversion multiple. Based on the number of instances UP for `currency-exchange-service` on different ports, `Ribbon` distributes those request to proper instances to get the response. `Ribbion` picks the `currency-exchange-service` name from the `netflix-eureka-naming-server` as all the micro services are registered on `netflix-eureka-naming-server` with the application name. `netflix-eureka-naming-server` shows the list services which are UP and running with all their instances and port numbers. We do have some logging in controller of each micro service which help `Zipkin` to trace a request. Once the response is sent back to calling service the result is in plain JSON format. All the logs are sent on `Rabbit MQ` and via `Zipkin` we can see the how request went from one service to another in `Zipkin` UI.
+
+
+### Ports
+
+| Application          | Port |
+|:---------------------|:------|
+| Limit Service | 8080,8081...|
+| Spring Cloud Config Sever| 8888|
+| Currency Exchange Service | 8000,8001...|
+| Currency Conversion Serice | 8100,8101...|
+| Netflix Eureka Naming Sever | 8761 |
+| Netflix Zuul API Gateway | 8765 |
+| Zipkin Distributed Tracing Server | 9411 |
 
